@@ -11,7 +11,7 @@ string[] FillArray(string[] arrayint)
 
 void SearchArrayLength(string[] array1, string[] array2)
 {
-    int count = 0;
+    int count = default;
     for (int i = 0; i < array1.Length; i++)
     {
         if (array1[i].Length <= 3)
@@ -28,7 +28,7 @@ void PrintArray(string[] array)
     for (int i = 0; i < array.Length; i++)
     {
         if (i < array.Length - 1)
-            Console.Write($"{array[i]}, ");
+            Console.Write($"{array[i]} ");
         else
             Console.Write($"{array[i]}");
     }
