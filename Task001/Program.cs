@@ -1,12 +1,12 @@
 ﻿
-string[] FillArray(string[] arrayint)
+string[] FillArray(string[] array)
 {
-    for (int i = 0; i < arrayint.Length; i++)
+    for (int i = 0; i < array.Length; i++)
     {
         Console.Write($"Введите элемент (текст или число) массива № {i + 1} : ");
-        arrayint[i] = Convert.ToString(Console.ReadLine());
+        array[i] = Convert.ToString(Console.ReadLine());
     }
-    return arrayint;
+    return array;
 }
 
 void SearchArrayLength(string[] array1, string[] array2)
