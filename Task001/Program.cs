@@ -50,3 +50,4 @@ Console.WriteLine("------------------------");
 Console.WriteLine("Массив с элементами меньше или равно 3: ");
 SearchArrayLength(newarr, arrayresult);
 PrintArray(arrayresult);
+Console.WriteLine();
